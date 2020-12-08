@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ app.request.locale|split('_')[0] }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="mobile-web-app-capable" content="yes">
+
+        {%- block meta -%}
+            {%- include 'blocks/meta.html.twig' %}
+        {% endblock %}
+
+        {% block metaIcons -%}
+            {%- include 'blocks/meta-icons.html.twig' %}
+        {% endblock %}
+
+        {% block style -%}
+            <link rel="stylesheet" href="{{ asset('/build/website/css/main.css') }}" />
+        {% endblock %}
+    </head>
+    <body>
+        {% block navigation %}
+            {% include 'blocks/navigation.html.twig' %}
+        {% endblock %}
+
+        {% block content %}{% endblock %}
+
+        {% block footer %}
+            {% include 'blocks/footer.html.twig' %}
+        {% endblock %}
+
+        {% block javascript %}
+            <script src="{{ asset('/build/website/js/main.js') }}"></script>
+            <script>
+                web.startComponents({{ get_components() }});
+            </script>
+        {% endblock %}
+    </body>
+</html>

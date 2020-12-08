@@ -1,0 +1,10 @@
+{% extends 'master.html.twig' %}
+
+{% block meta %}
+    <title>Error {{ status_code }}</title>
+{% endblock %}
+
+{% block content %}
+    <h1>Error {{ status_code }}</h1>
+    <p>{{ status_text }}</p>
+{% endblock %}

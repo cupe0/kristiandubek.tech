@@ -1,0 +1,11 @@
+<footer class="footer">
+    <ul>
+        {% for item in sulu_navigation_root_flat('footer') %}
+            <li>
+                <a href="{{ sulu_content_path(item.url) }}">
+                    {{ item.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</footer>

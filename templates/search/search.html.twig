@@ -1,0 +1,27 @@
+{% extends 'master.html.twig' %}
+
+{% block meta %}
+    <title>{{ 'Search'|trans }}</title>
+{% endblock %}
+
+{% block content %}
+    <h1>
+        {{ 'Showing_%hits%_for_%query%'|trans({'%hits%': hits|length, '%query%': query}) }}
+    </h1>
+
+    {% for i, hit in hits %}
+        <a href="{{ hit.document.url }}">
+            <h3>
+                <a href="{{ hit.document.url }}">{{ hit.document.title }}</a>
+            </h3>
+            <p>
+                <a href="{{ hit.document.url }}">{{ hit.document.url }}</a>
+            </p>
+            <p>
+                {{ hit.document.description|slice(0, 255)|striptags }}
+            </p>
+        </a>
+    {% else %}
+        <p>{{ 'Search_no_results'|trans }}</p>
+    {% endfor %}
+{% endblock %}

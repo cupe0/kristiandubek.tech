@@ -1,0 +1,25 @@
+<nav class="navigation">
+    <ul>
+        {% for item in sulu_navigation_root_tree('main', 2) %}
+            <li>
+                <a href="{{ sulu_content_path(item.url) }}"
+                   class="{{ item.path starts with path ? 'active' : '' }}">
+                    {{ item.title }}
+                </a>
+
+                {% if item.children|length %}
+                    <ul>
+                        {% for child in item.children %}
+                            <li>
+                                <a href="{{ sulu_content_path(child.url) }}"
+                                   class="{{ child.path starts with path ? 'active' : '' }}">
+                                    {{ child.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
