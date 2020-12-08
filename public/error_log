@@ -1,0 +1,8 @@
+[08-Dec-2020 21:15:09 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "/home/krislnss/skeleton/.env" environment file. in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:565
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Component\Dotenv\Dotenv->loadEnv('/home/krislnss/...', 'APP_ENV', 'dev', Array)
+#3 /home/krislnss/skeleton/public/index.php(31): Symfony\Component\Dotenv\Dotenv->bootEnv('/home/krislnss/...')
+#4 {main}
+  thrown in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 565
