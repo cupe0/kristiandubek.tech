@@ -6,3 +6,537 @@ Stack trace:
 #3 /home/krislnss/skeleton/public/index.php(31): Symfony\Component\Dotenv\Dotenv->bootEnv('/home/krislnss/...')
 #4 {main}
   thrown in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 565
+[08-Dec-2020 21:20:27 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:20:33 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:45 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:46 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:46 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:47 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:47 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:47 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:47 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:47 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:48 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:48 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:48 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:48 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:50 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:50 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:50 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:50 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:50 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:51 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:51 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:51 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:51 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:51 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:51 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:52 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:52 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:52 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:52 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:54 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:55 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:55 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:56 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:57 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:58 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:58 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:59 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:21:59 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:22:00 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:22:01 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:22:01 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:22:02 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:22:03 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:22:03 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:22:35 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:25:21 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:25:33 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:26:05 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:26:10 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:33:42 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:38:41 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: Whitespace characters are not supported after the variable name in "/home/krislnss/skeleton/.env" at line 1.
+...n all environments, t...
+   ^ line 1 offset 1 in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:558
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(291): Symfony\Component\Dotenv\Dotenv->createFormatException('Whitespace char...')
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(250): Symfony\Component\Dotenv\Dotenv->lexVarname()
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(568): Symfony\Component\Dotenv\Dotenv->parse('n all environme...', '/home/krislnss/...')
+#3 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#4 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#5 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Compo in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 558
+[08-Dec-2020 21:43:00 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "/home/krislnss/skeleton/.env" environment file. in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:565
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Component\Dotenv\Dotenv->loadEnv('/home/krislnss/...', 'APP_ENV', 'dev', Array)
+#3 /home/krislnss/skeleton/public/index.php(31): Symfony\Component\Dotenv\Dotenv->bootEnv('/home/krislnss/...')
+#4 {main}
+  thrown in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 565
+[08-Dec-2020 21:43:01 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "/home/krislnss/skeleton/.env" environment file. in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:565
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Component\Dotenv\Dotenv->loadEnv('/home/krislnss/...', 'APP_ENV', 'dev', Array)
+#3 /home/krislnss/skeleton/public/index.php(31): Symfony\Component\Dotenv\Dotenv->bootEnv('/home/krislnss/...')
+#4 {main}
+  thrown in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 565
+[08-Dec-2020 21:43:47 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\PathException: Unable to read the "/home/krislnss/skeleton/.env" environment file. in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php:565
+Stack trace:
+#0 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(92): Symfony\Component\Dotenv\Dotenv->doLoad(false, Array)
+#1 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(114): Symfony\Component\Dotenv\Dotenv->load('/home/krislnss/...')
+#2 /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php(157): Symfony\Component\Dotenv\Dotenv->loadEnv('/home/krislnss/...', 'APP_ENV', 'dev', Array)
+#3 /home/krislnss/skeleton/public/index.php(31): Symfony\Component\Dotenv\Dotenv->bootEnv('/home/krislnss/...')
+#4 {main}
+  thrown in /home/krislnss/skeleton/vendor/symfony/dotenv/Dotenv.php on line 565
