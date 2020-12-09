@@ -1,1 +1,106 @@
-// Define your mixins here.
+/* ===========================================================
+        Breakpoint mixins.
+=========================================================== */
+@mixin laptopMax {
+    @media screen and (max-width: $laptopBreakpoint) {
+        @content;
+    }
+}
+
+@mixin laptopMin {
+    @media screen and (min-width: $laptopBreakpoint + 1px) {
+        @content;
+    }
+}
+
+@mixin tabletMax {
+    @media screen and (max-width: $tabletBreakpoint) {
+        @content;
+    }
+}
+
+@mixin tabletMin {
+    @media screen and (min-width: $tabletBreakpoint + 1px) {
+        @content;
+    }
+}
+
+@mixin tabletSmallMax {
+    @media screen and (max-width: $tabletSmallBreakpoint) {
+        @content;
+    }
+}
+
+@mixin tabletSmallMin {
+    @media screen and (min-width: $tabletSmallBreakpoint + 1px) {
+        @content;
+    }
+}
+
+@mixin mobileLargeMax {
+    @media screen and (max-width: $mobileLargeBreakpoint) {
+        @content;
+    }
+}
+
+@mixin mobileLargeMin {
+    @media screen and (min-width: $mobileLargeBreakpoint + 1px) {
+        @content;
+    }
+}
+
+@mixin mobileSmallMax {
+    @media screen and (max-width: $mobileSmallBreakpoint) {
+        @content;
+    }
+}
+
+@mixin mobileSmallMin {
+    @media screen and (min-width: $mobileSmallBreakpoint + 1px) {
+        @content;
+    }
+}
+
+@mixin mobileSuperSmallMax {
+    @media screen and (max-width: $mobileSuperSmallBreakpoint) {
+        @content;
+    }
+}
+
+@mixin mobileSuperSmallMin {
+    @media screen and (min-width: $mobileSuperSmallBreakpoint + 1px) {
+        @content;
+    }
+}
+
+/* ===========================================================
+        Fluid mixins.
+=========================================================== */
+@mixin noMoreFluid {
+    @media screen and (max-width: $fluidBreakpoint) {
+        @content;
+    }
+}
+
+@mixin fromFluid {
+    @media screen and (min-width: $fluidBreakpoint + 1px) {
+        @content;
+    }
+}
+
+/* stylelint-disable */
+@function strip-unit($value) {
+    @return $value / ($value * 0 + 1);
+}
+
+@function fluid($size) {
+    @return #{(strip-unit($size) / strip-unit($fluidBreakpoint)) * 100 + 'vw'};
+}
+
+@mixin fluid($property, $propertyValue) {
+    #{$property}: fluid($propertyValue);
+
+    @include noMoreFluid {
+        #{$property}: $propertyValue;
+    }
+}

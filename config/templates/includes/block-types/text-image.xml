@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<type xmlns="http://schemas.sulu.io/template/template"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd"
+      name="text-image">
+    <meta>
+        <title lang="de">Text mit Bild</title>
+        <title lang="en">Text with Image</title>
+    </meta>
+
+    <properties>
+        <property name="title" type="text_line">
+            <meta>
+                <title lang="de">Titel</title>
+                <title lang="en">Title</title>
+            </meta>
+        </property>
+
+        <property name="description" type="text_editor">
+            <meta>
+                <title lang="de">Beschreibung</title>
+                <title lang="en">Description</title>
+            </meta>
+        </property>
+
+        <property name="image" type="single_media_selection">
+            <meta>
+                <title lang="de">Bild</title>
+                <title lang="en">Image</title>
+            </meta>
+        </property>
+
+        <property name="gifLink" type="text_line">
+            <meta>
+                <title lang="de">Gif Link</title>
+                <title lang="en">Gif Link</title>
+            </meta>
+        </property>
+
+        <property name="upperImageText" type="text_line">
+            <meta>
+                <title lang="de">Oberer Bild Text</title>
+                <title lang="en">Upper Image Text</title>
+            </meta>
+        </property>
+
+        <property name="lowerImageText" type="text_line">
+            <meta>
+                <title lang="de">Unterer Bild Text</title>
+                <title lang="en">Lower Image Text</title>
+            </meta>
+        </property>
+    </properties>
+</type>

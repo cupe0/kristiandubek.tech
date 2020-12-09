@@ -9,10 +9,14 @@
 
 // Import basic definitions.
 @import 'base/variables';
+@import 'base/mixins';
 @import 'base/fonts';
 @import 'base/icons';
 @import 'base/base';
+@import 'base/helpers';
+@import 'base/headlines';
 
 // Import components.
 @import 'components/header';
 @import 'components/footer';
+@import 'components/text-image';

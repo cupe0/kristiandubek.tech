@@ -1,0 +1,8 @@
+.headline-first {
+    font-family: $fontFancy;
+    font-weight: 400;
+    @include fluid(font-size, 40px);
+    line-height: 1.41em;
+    text-transform: uppercase;
+    color: $colorDarkGrey;
+}

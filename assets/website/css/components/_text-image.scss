@@ -1,0 +1,156 @@
+.text-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    @include fluid(grid-column-gap, 40px);
+    grid-template-areas: 't c';
+
+    @include tabletSmallMax {
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px auto;
+        grid-template-areas: 'c' 't';
+        grid-row-gap: 20px;
+    }
+
+    @include mobileLargeMax {
+        grid-template-rows: auto auto;
+    }
+}
+
+.text-image-text {
+    grid-area: t;
+    align-self: center;
+
+    @include tabletSmallMax {
+        align-self: start;
+    }
+}
+
+.text-image-card-container {
+    grid-area: c;
+    justify-self: end;
+    align-self: start;
+
+    @include tabletMax {
+        align-self: center;
+    }
+
+    @include tabletSmallMax {
+        justify-self: center;
+    }
+
+    @include mobileLargeMax {
+        width: 100%;
+        height: 100%;
+        padding-top: 100%;
+        position: relative;
+    }
+}
+
+.text-image-card {
+    @include fluid(width, 540px);
+    @include fluid(height, 540px);
+
+    &:hover {
+        .text-image-card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .text-image-card-text {
+            opacity: 0;
+        }
+    }
+
+    @include tabletMax {
+        width: 320px;
+        height: 320px;
+    }
+
+    @include tabletSmallMax {
+        width: 400px;
+        height: 400px;
+    }
+
+    @include mobileLargeMax {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.text-image-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s 0.06s;
+    transform-style: preserve-3d;
+}
+
+.text-image-card-front,
+.text-image-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background: center center no-repeat;
+    background-size: cover;
+}
+
+.text-image-card-front {
+    background: center center no-repeat;
+    background-size: cover;
+}
+
+.text-image-card-back {
+    transform: rotateY(180deg);
+}
+
+.text-image-card-text {
+    position: absolute;
+    bottom: 2.5%;
+    left: 50%;
+    width: 95%;
+    transform: translateX(-50%);
+    background-color: rgba($colorBlack, 0.8);
+    padding: fluid(5px) 0;
+    color: $colorWhite;
+    text-align: center;
+    @include fluid(font-size, 20px);
+    @include fluid(line-height, 40px);
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
+
+    @include noMoreFluid {
+        padding: 5px 0;
+    }
+
+    @include tabletMax {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+.text-image-card-name {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.text-image-card-position {
+    font-family: $fontFancy;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.text-image-card-text-spacer {
+    display: block;
+    border: fluid(1px) solid $colorYellow;
+    width: 75%;
+    margin: 0 auto 0 12.5%;
+
+    @include noMoreFluid {
+        border: 1px solid $colorYellow;
+    }
+}
