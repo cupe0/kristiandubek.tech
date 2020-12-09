@@ -2,4 +2,5 @@
 
 ##### Unreleased
 
-- FEATURE: Initial project setup. [!1]
+- FEATURE: Webspace configuration. (#1)
+- FEATURE: Initial project setup. 
