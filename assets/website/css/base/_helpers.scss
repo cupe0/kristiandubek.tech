@@ -1,0 +1,19 @@
+.default-padding {
+    padding: 0 fluid(40px);
+
+    @include noMoreFluid {
+        padding: 0 40px;
+    }
+
+    @include mobileLargeMax {
+        padding: 0 20px;
+    }
+}
+
+.default-max-width {
+    @include fluid(max-width, $containerMaxWidth);
+}
+
+.centered {
+    margin: 0 auto;
+}

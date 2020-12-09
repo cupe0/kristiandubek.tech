@@ -1,0 +1,14 @@
+{%- if content.blocks|length -%}
+    <article property="blocks" typeof="collection">
+        {% for block in content.blocks %}
+            <section rel="blocks"
+                     typeof="block"
+                     data-section="{{ (block.sectionTitle|default(''))|anchor_format }}"
+                     class="js-anchor-menu-section">
+                {% include '/includes/block-types/' ~ block.type|camelCaseToFile ~ '.html.twig' with {
+                    'blockView' : view.blocks[loop.index0]
+                } %}
+            </section>
+        {% endfor %}
+    </article>
+{%- endif -%}

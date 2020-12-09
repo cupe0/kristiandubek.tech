@@ -1,1 +1,31 @@
-// Define your variables here.
+/* ===========================================================
+        Colors.
+=========================================================== */
+$colorBlack: #000000;
+$colorWhite: #FFFFFF;
+$colorYellow: #FFC800;
+$colorDarkGrey: #111111;
+
+/* ===========================================================
+        Fonts.
+=========================================================== */
+$fontDefault: 'roboto', 'Arial', 'Helvetica', sans-serif;
+$fontFancy: 'PlayfairDisplay', 'Times New Roman', 'serif';
+
+/* ===========================================================
+        Global Breakpoints.
+=========================================================== */
+$fluidBreakpoint: 1920px;
+$desktopBreakpoint: 1440px;
+$navigationChangeBreakpoint: 1440px;
+$laptopBreakpoint: 1180px;
+$tabletBreakpoint: 1024px;
+$tabletSmallBreakpoint: 769px;
+$mobileLargeBreakpoint: 600px;
+$mobileSmallBreakpoint: 480px;
+$mobileSuperSmallBreakpoint: 360px;
+
+/* ===========================================================
+        Element Sizes.
+=========================================================== */
+$containerMaxWidth: 1440px;
