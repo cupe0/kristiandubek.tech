@@ -1,3 +1,6 @@
+/* ===========================================================
+        Horizontal Spacing.
+=========================================================== */
 .default-padding {
     padding: 0 fluid(40px);
 
@@ -10,10 +13,82 @@
     }
 }
 
+/* ===========================================================
+        Vertical Spacing.
+=========================================================== */
+.default-spacing-margin {
+    @include fluid(margin-top, 60px);
+    @include fluid(margin-bottom, 60px);
+
+    @include mobileLargeMax {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+
+.default-spacing-padding {
+    @include fluid(padding-top, 40px);
+    @include fluid(padding-bottom, 40px);
+
+    @include mobileLargeMax {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/* ===========================================================
+        Widths.
+=========================================================== */
 .default-max-width {
     @include fluid(max-width, $containerMaxWidth);
 }
 
+.default-max-width-medium {
+    @include fluid(max-width, $containerMediumMaxWidth);
+}
+
+.default-max-width-medium-small {
+    @include fluid(max-width, $containerMediumSmallMaxWidth);
+}
+
+.default-max-width-small {
+    @include fluid(max-width, $containerSmallMaxWidth);
+}
+
+.default-max-width-text {
+    @include fluid(max-width, $textMaxWidth);
+}
+
+/* ===========================================================
+        Alignments.
+=========================================================== */
 .centered {
     margin: 0 auto;
+}
+
+/* ===========================================================
+        Text Formatting.
+=========================================================== */
+.text-centered {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.default-text {
+    @include fluid(font-size, 16px);
+    @include fluid(line-height, 24px);
+    color: $fontDefault;
+    font-weight: 400;
+
+    &--large {
+        @include fluid(font-size, 24px);
+        @include fluid(line-height, 35px);
+    }
 }

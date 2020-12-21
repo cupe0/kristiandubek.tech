@@ -1,0 +1,90 @@
+<div id="{{ register_component('timeline') }}" class="default-padding timeline">
+    <div class="default-max-width centered">
+        {% if block.title or block.description %}
+            <div class="default-max-width-text centered text-centered">
+                {% if block.title %}
+                    <div class="headline-second headline-second--white">
+                        {{ block.title }}
+                    </div>
+                {% endif %}
+
+                {% if block.description %}
+                    <div class="default-text default-text--large">
+                        {{ block.description|raw }}
+                    </div>
+                {% endif %}
+            </div>
+        {% endif %}
+
+        {% if block.events %}
+            <div class="timeline-event-container">
+                {% for subBlock in block.events %}
+                    {% if subBlock.type == 'event' %}
+                        {% set event = subBlock %}
+                        {% set colspanText = ' grid-column: '
+                            ~ event.startColumnText|default(0) ~ ' / '
+                            ~ event.endColumnText|default(0) ~ ';' %}
+                        {% set colspanImage = ' grid-column: '
+                            ~ event.startColumnImage|default(0) ~ ' / '
+                            ~ event.endColumnImage|default(0) ~ ';' %}
+                        {% set order = event.startColumnImage|default(0) < event.startColumnText|default(0) ? ' order: 1;' %}
+
+                        <div class="timeline-event">
+                            {% if event.title or event.description %}
+                                <div class="text-centered timeline-event-text" style="{{ colspanText }}{{ order }}">
+                                    {% if event.title %}
+                                        <div class="headline-fourth headline-fourth--white headline-fourth--with-spacer">
+                                            {{ event.title }}
+                                        </div>
+                                    {% endif %}
+
+                                    {% if event.description %}
+                                        <div>
+                                            {{ event.description|raw }}
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            {% endif %}
+
+                            {% if event.animationImages %}
+                                {% set addImageWideClass =
+                                    event.isAnimationImageWide ? ' timeline-event-image-container--wide' : '' %}
+
+                                <div class="timeline-event-image-container js-timeline-event-image-container{{ addImageWideClass }}"
+                                     style="{{ colspanImage }}">
+
+                                    {% for image in event.animationImages %}
+                                        <div class="timeline-event-image" >
+                                            <img src="{{ image.thumbnails['x540'] }}"
+                                                 alt="{{ image.title|default('') }}">
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </div>
+
+                    {% elseif subBlock.type == 'separator' %}
+                        {% set separator = subBlock %}
+
+                        <div class="timeline-separator">
+                            <svg id="{{ 'js-timeline-separator-svg' ~  loop.index }}"
+                                 class="js-timeline-separator-svg"
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 preserveAspectRatio="none"
+                                 viewBox="0 0 1440 300">
+
+                                {% for connector in separator.connectors %}
+                                    {% set path = 'M ' ~ connector.startX|default(0) ~ ' ' ~ connector.startY|default(0) ~
+                                        ' L ' ~ connector.endX|default(0) ~ ' ' ~ connector.endY|default(0) %}
+
+                                    <path d="{{ path }}" stroke="white" stroke-width="3"
+                                          vector-effect="non-scaling-stroke"></path>
+                                {% endfor %}
+                            </svg>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</div>

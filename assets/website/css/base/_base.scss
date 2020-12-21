@@ -9,7 +9,18 @@ html {
 
 body {
     min-height: 100vh;
+    margin: 0;
     background-image: url('/images/background-light.png');
+}
+
+*::selection {
+    background-color: transparent;
+    color: $colorYellow;
+}
+
+*::-moz-selection {
+    background-color: transparent;
+    color: $colorYellow;
 }
 
 *,

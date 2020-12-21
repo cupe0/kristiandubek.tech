@@ -1,8 +1,78 @@
 .headline-first {
     font-family: $fontFancy;
     font-weight: 400;
+    @include fluid(font-size, 60px);
+    @include fluid(line-height, 85px);
+    text-transform: uppercase;
+    color: $colorDarkGrey;
+
+    &--white {
+        color: $colorWhite;
+    }
+
+    &--italic {
+        font-style: italic;
+    }
+}
+
+.headline-second {
+    font-family: $fontFancy;
+    font-weight: 400;
     @include fluid(font-size, 40px);
     line-height: 1.41em;
     text-transform: uppercase;
     color: $colorDarkGrey;
+
+    &--white {
+        color: $colorWhite;
+    }
+
+    &--italic {
+        font-style: italic;
+    }
+}
+
+.headline-third {
+    font-family: $fontDefault;
+    font-weight: 700;
+    @include fluid(font-size, 24px);
+    @include fluid(line-height, 35px);
+    text-transform: uppercase;
+    color: $colorDarkGrey;
+
+    &--white {
+        color: $colorWhite;
+    }
+}
+
+.headline-fourth {
+    font-family: $fontDefault;
+    font-weight: 600;
+    @include fluid(font-size, 24px);
+    @include fluid(line-height, 30px);
+    text-transform: uppercase;
+    color: $colorDarkGrey;
+
+    &--white {
+        color: $colorWhite;
+    }
+
+    &--with-spacer {
+        position: relative;
+        @include fluid(margin-bottom, 55px);
+
+        &::before {
+            position: absolute;
+            content: '';
+            @include fluid(bottom, -25px);
+            width: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-bottom: fluid(4px) solid $colorYellow;
+
+            @include noMoreFluid {
+                border-bottom: 4px solid $colorYellow;
+            }
+        }
+    }
 }

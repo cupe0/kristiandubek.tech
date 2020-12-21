@@ -2,14 +2,14 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    @include fluid(grid-column-gap, 40px);
+    @include fluid(grid-column-gap, 50px);
     grid-template-areas: 't c';
 
     @include tabletSmallMax {
         grid-template-columns: 1fr;
         grid-template-rows: 400px auto;
         grid-template-areas: 'c' 't';
-        grid-row-gap: 20px;
+        grid-row-gap: 24px;
     }
 
     @include mobileLargeMax {
@@ -30,10 +30,6 @@
     grid-area: c;
     justify-self: end;
     align-self: start;
-
-    @include tabletMax {
-        align-self: center;
-    }
 
     @include tabletSmallMax {
         justify-self: center;
@@ -146,11 +142,7 @@
 
 .text-image-card-text-spacer {
     display: block;
-    border: fluid(1px) solid $colorYellow;
+    border: 1px solid $colorYellow;
     width: 75%;
     margin: 0 auto 0 12.5%;
-
-    @include noMoreFluid {
-        border: 1px solid $colorYellow;
-    }
 }

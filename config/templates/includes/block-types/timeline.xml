@@ -1,0 +1,179 @@
+<?xml version="1.0" ?>
+<type xmlns="http://schemas.sulu.io/template/template"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd"
+      name="timeline">
+    <meta>
+        <title lang="de">Timeline</title>
+        <title lang="en">Timeline</title>
+    </meta>
+
+    <properties>
+        <property name="title" type="text_line">
+            <meta>
+                <title lang="de">Titel</title>
+                <title lang="en">Title</title>
+            </meta>
+        </property>
+
+        <property name="description" type="text_editor">
+            <meta>
+                <title lang="de">Beschreibung</title>
+                <title lang="en">Description</title>
+            </meta>
+        </property>
+
+        <block name="events" default-type="event">
+            <meta>
+                <title lang="de">Events</title>
+                <title lang="en">Events</title>
+            </meta>
+
+            <types>
+                <type name="event">
+                    <meta>
+                        <title lang="de">Event</title>
+                        <title lang="en">Event</title>
+                    </meta>
+
+                    <properties>
+                        <property name="title" type="text_line">
+                            <meta>
+                                <title lang="de">Titel</title>
+                                <title lang="en">Title</title>
+                            </meta>
+                        </property>
+
+                        <property name="description" type="text_editor">
+                            <meta>
+                                <title lang="de">Beschreibung</title>
+                                <title lang="en">Description</title>
+                            </meta>
+                        </property>
+
+                        <property name="animationImages" type="media_selection">
+                            <meta>
+                                <title lang="de">Animationsbilder</title>
+                                <title lang="en">Animation Images</title>
+                            </meta>
+                        </property>
+
+                        <property name="isAnimationImageWide" type="checkbox">
+                            <meta>
+                                <title lang="de">Breites Bild</title>
+                                <title lang="en">Wide Image</title>
+                            </meta>
+                            <params>
+                                <param name="type" value="toggler"/>
+                            </params>
+                        </property>
+
+                        <property name="startColumnText" type="number" colspan="3">
+                            <meta>
+                                <title lang="de">Startspalte Text</title>
+                                <title lang="en">Start Column Text</title>
+                            </meta>
+
+                            <params>
+                                <param name="min" value="0"/>
+                                <param name="max" value="13"/>
+                                <param name="step" value="1"/>
+                            </params>
+                        </property>
+
+                        <property name="endColumnText" type="number" colspan="3">
+                            <meta>
+                                <title lang="de">Endspalte Text</title>
+                                <title lang="en">End Column Text</title>
+                            </meta>
+
+                            <params>
+                                <param name="min" value="0"/>
+                                <param name="max" value="13"/>
+                                <param name="step" value="1"/>
+                            </params>
+                        </property>
+
+                        <property name="startColumnImage" type="number" colspan="3">
+                            <meta>
+                                <title lang="de">Startspalte Bild</title>
+                                <title lang="en">Start Column Image</title>
+                            </meta>
+
+                            <params>
+                                <param name="min" value="0"/>
+                                <param name="max" value="13"/>
+                                <param name="step" value="1"/>
+                            </params>
+                        </property>
+
+                        <property name="endColumnImage" type="number" colspan="3">
+                            <meta>
+                                <title lang="de">Endspalte Bild</title>
+                                <title lang="en">End Column Image</title>
+                            </meta>
+
+                            <params>
+                                <param name="min" value="0"/>
+                                <param name="max" value="13"/>
+                                <param name="step" value="1"/>
+                            </params>
+                        </property>
+                    </properties>
+                </type>
+
+
+
+                <type name="separator">
+                    <meta>
+                        <title lang="de">Separator</title>
+                        <title lang="en">Separator</title>
+                    </meta>
+
+                    <properties>
+                        <block name="connectors" default-type="connector">
+                            <meta>
+                                <title lang="de">Verbindung</title>
+                                <title lang="en">Connectors</title>
+                            </meta>
+
+                            <types>
+                                <type name="connector">
+                                    <properties>
+                                        <property name="startX" type="number" colspan="3">
+                                            <meta>
+                                                <title lang="de">Start X</title>
+                                                <title lang="en">Start X</title>
+                                            </meta>
+                                        </property>
+
+                                        <property name="startY" type="number" colspan="3">
+                                            <meta>
+                                                <title lang="de">Start Y</title>
+                                                <title lang="en">Start Y</title>
+                                            </meta>
+                                        </property>
+
+                                        <property name="endX" type="number" colspan="3">
+                                            <meta>
+                                                <title lang="de">Ende X</title>
+                                                <title lang="en">End X</title>
+                                            </meta>
+                                        </property>
+
+                                        <property name="endY" type="number" colspan="3">
+                                            <meta>
+                                                <title lang="de">Ende Y</title>
+                                                <title lang="en">End Y</title>
+                                            </meta>
+                                        </property>
+                                    </properties>
+                                </type>
+                            </types>
+                        </block>
+                    </properties>
+                </type>
+            </types>
+        </block>
+    </properties>
+</type>
