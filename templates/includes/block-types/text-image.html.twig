@@ -1,14 +1,14 @@
-<div class="default-padding">
-    <div class="default-max-width text-image centered">
+<div class="default-spacing-margin default-padding">
+    <div class="default-max-width centered text-image">
         <div class="text-image-text">
             {% if block.title %}
-                <div class="headline-first text-image-text-title">
+                <div class="headline-second">
                     {{ block.title }}
                 </div>
             {% endif %}
 
             {% if block.description %}
-                <div class="text-image-text-desc">
+                <div>
                     {{ block.description|raw }}
                 </div>
             {% endif %}
@@ -20,12 +20,14 @@
                 <div class="text-image-card">
                     <div class="text-image-card-inner">
                         <div class="text-image-card-front"
-                             style="background-image: url('{{ image.thumbnails['540x540'] }}')">
+                             style="background-image: url('{{ image.thumbnails['1855x1855'] }}')">
                             <div class="text-image-card-text">
                                 <div class="text-image-card-name">
                                     {{ block.upperImageText|default('') }}
                                 </div>
+
                                 <div class="text-image-card-text-spacer"></div>
+
                                 <div class="text-image-card-position">
                                     {{ block.lowerImageText|default('') }}
                                 </div>

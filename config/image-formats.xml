@@ -11,4 +11,22 @@
 
         <scale x="540" y="540"/>
     </format>
+
+    <format key="1855x1855">
+        <meta>
+            <title lang="en">Profile Image</title>
+            <title lang="de">Profilbild</title>
+        </meta>
+
+        <scale x="1855" y="1855"/>
+    </format>
+
+    <format key="x540">
+        <meta>
+            <title lang="en">Timeline Image</title>
+            <title lang="de">Timelinebild</title>
+        </meta>
+
+        <scale y="540"/>
+    </format>
 </formats>
