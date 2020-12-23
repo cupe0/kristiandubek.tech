@@ -1,0 +1,14 @@
+{% if block.image %}
+    {% set image = block.image %}
+
+    <div class="header">
+        <div class="header-image-wrapper">
+            <img class="header-image"
+                 src="{{ image.thumbnails['1920x864'] }}"
+                 srcset="{{ image.thumbnails['600x270'] }} 600w,
+                         {{ image.thumbnails['1040x468'] }} 1024w,
+                         {{ image.thumbnails['1920x864'] }} 1440w"
+                 alt="Header Image">
+        </div>
+    </div>
+{% endif %}

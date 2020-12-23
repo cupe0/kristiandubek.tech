@@ -2,6 +2,9 @@
 
 ##### Unreleased
 
+- FEATURE: Added CB Header
+    - https://github.com/cupe0/kristiandubek.tech/pull/4
+
 - FEATURE: Added CB Timeline
     - https://github.com/cupe0/kristiandubek.tech/pull/3
 
