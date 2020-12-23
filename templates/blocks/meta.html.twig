@@ -1,5 +1,6 @@
-{% set metaPublisher = 'MASSIVE ART WebServices GmbH' %}
-{% set metaClientName = 'TODO' %}
+{%- apply spaceless %}
+{% set metaPublisher = 'Kristian Dubek' %}
+{% set metaClientName = 'Kristian Dubek' %}
 {% set metaLocaleParts = app.request.locale|split('_') %}
 {% set metaLanguage = metaLocaleParts[0] %}
 {% set metaCountry = metaLocaleParts[1]|default(null) %}
@@ -60,7 +61,7 @@
     'og:description': metaDescription,
     'og:locale': metaLocale
 } %}
-
+{% endapply -%}
 
 {# Default Seo: http://blog.sulu.io/new-in-sulu-1-4-customizable-seo-tags #}
 {%- embed '@SuluWebsite/Extension/seo.html.twig' with {

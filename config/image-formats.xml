@@ -29,4 +29,31 @@
 
         <scale y="540"/>
     </format>
+
+    <format key="1920x864">
+        <meta>
+            <title lang="en">Header Image</title>
+            <title lang="de">Headerbild</title>
+        </meta>
+
+        <scale x="1920" y="864"/>
+    </format>
+
+    <format key="1040x468">
+        <meta>
+            <title lang="en">Header Image Tablet</title>
+            <title lang="de">Headerbild Tablet</title>
+        </meta>
+
+        <scale x="1040" y="468"/>
+    </format>
+
+    <format key="600x270">
+        <meta>
+            <title lang="en">Header Image Mobile</title>
+            <title lang="de">Headerbild Mobile</title>
+        </meta>
+
+        <scale x="600" y="270"/>
+    </format>
 </formats>

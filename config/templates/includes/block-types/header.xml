@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<type xmlns="http://schemas.sulu.io/template/template"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd"
+      name="header">
+    <meta>
+        <title lang="de">Header</title>
+        <title lang="en">Header</title>
+    </meta>
+
+    <properties>
+        <property name="image" type="single_media_selection">
+            <meta>
+                <title lang="de">Bild</title>
+                <title lang="en">Image</title>
+            </meta>
+        </property>
+    </properties>
+</type>

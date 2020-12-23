@@ -53,6 +53,7 @@
                     <types>
                         <xi:include href="../includes/block-types/text-image.xml"/>
                         <xi:include href="../includes/block-types/timeline.xml"/>
+                        <xi:include href="../includes/block-types/header.xml"/>
                     </types>
                 </block>
             </properties>
