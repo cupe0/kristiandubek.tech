@@ -1,5 +1,11 @@
-<div id="{{ register_component('timeline') }}" class="default-padding timeline">
-    <div class="default-max-width centered">
+{% set anchorTag = block.navigationTitle|default('') ? block.navigationTitle|replace({' ': ''}) : '' %}
+
+<div id="{{ register_component('timeline') }}" class="relative default-spacing-padding default-padding timeline">
+    {% if anchorTag %}
+        <div id="{{ anchorTag }}" class="navigation-anchor js-navigation-anchor"></div>
+    {% endif %}
+
+    <div  class="default-max-width centered">
         {% if block.title or block.description %}
             <div class="default-max-width-text centered text-centered">
                 {% if block.title %}

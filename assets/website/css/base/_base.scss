@@ -3,6 +3,8 @@ html {
     font-family: $fontDefault;
     font-weight: 400;
     color: $colorBlack;
+    scroll-behavior: smooth;
+    background-color: $colorBlack;
 }
 
 body {

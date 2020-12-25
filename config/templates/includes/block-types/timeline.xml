@@ -9,6 +9,13 @@
     </meta>
 
     <properties>
+        <property name="navigationTitle" type="text_line">
+            <meta>
+                <title lang="de">Navigationstitel</title>
+                <title lang="en">Navigation Title</title>
+            </meta>
+        </property>
+
         <property name="title" type="text_line">
             <meta>
                 <title lang="de">Titel</title>

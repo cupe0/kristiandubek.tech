@@ -1,0 +1,85 @@
+.navigation-anchor {
+    position: absolute;
+    @include fluid(top, -71px);
+    left: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+
+    &--default-margin {
+        @include fluid(top, -130px);
+    }
+}
+
+.navigation-spacer {
+    @include fluid(height, 71px);
+    background-color: $colorBlack;
+
+    @include tabletSmallMax {
+        height: 50px;
+    }
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: $navigationZIndex;
+    border-top: solid $colorBlack;
+    @include fluid(border-width, 5px);
+    background-color: $colorWhiteTransparent;
+}
+
+.navigation-inner {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: end;
+}
+
+.navigation-item {
+    text-transform: uppercase;
+    @include fluid(padding-left, 15px);
+    @include fluid(padding-right, 15px);
+    @include fluid(padding-top, 22px);
+    @include fluid(padding-bottom, 20px);
+    white-space: nowrap;
+    align-self: center;
+
+    &:first-child {
+        justify-self: start;
+        font-family: $fontFancy;
+        @include fluid(font-size, 22px);
+        @include fluid(padding-top, 0);
+        @include fluid(padding-bottom, 3px);
+        padding-left: 0;
+
+        @include tabletSmallMax {
+            justify-self: center;
+            align-self: center;
+            padding: 10px 0;
+        }
+    }
+
+    &:not(:first-child) {
+        border-top: solid $colorBlack;
+        @include fluid(border-width, 5px);
+        @include fluid(margin-top, -5px);
+
+        &:hover {
+            color: $colorYellow;
+            border-top: solid $colorYellow;
+            @include fluid(border-width, 5px);
+        }
+
+        @include tabletSmallMax {
+            display: none;
+        }
+    }
+
+    &--active:not(:first-child) {
+        color: $colorYellow;
+        border-top: solid $colorYellow;
+        @include fluid(border-width, 5px);
+    }
+}

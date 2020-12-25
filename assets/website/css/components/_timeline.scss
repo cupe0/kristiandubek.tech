@@ -1,18 +1,6 @@
 .timeline {
     background-image: url('/images/background-dark.jpg');
     color: $colorWhite;
-    @include fluid(padding-top, 150px);
-    @include fluid(padding-bottom, 150px);
-
-    @include tabletMax {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-
-    @include mobileLargeMax {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
 }
 
 .timeline-event-container:not(:first-child) {

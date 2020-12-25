@@ -1,4 +1,11 @@
-<div class="default-spacing-margin default-padding">
+{% set anchorTag = block.navigationTitle|default('') ? block.navigationTitle|replace({' ': ''}) : '' %}
+
+<div class="relative default-spacing-margin default-padding">
+    {% if anchorTag %}
+        <div id="{{ anchorTag }}" class="navigation-anchor navigation-anchor--default-margin js-navigation-anchor">
+        </div>
+    {% endif %}
+
     <div class="default-max-width centered text-image">
         <div class="text-image-text">
             {% if block.title %}

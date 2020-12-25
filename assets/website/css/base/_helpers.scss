@@ -27,12 +27,12 @@
 }
 
 .default-spacing-padding {
-    @include fluid(padding-top, 40px);
-    @include fluid(padding-bottom, 40px);
+    @include fluid(padding-top, 80px);
+    @include fluid(padding-bottom, 80px);
 
     @include mobileLargeMax {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }
 
@@ -64,6 +64,10 @@
 =========================================================== */
 .centered {
     margin: 0 auto;
+}
+
+.relative {
+    position: relative;
 }
 
 /* ===========================================================
