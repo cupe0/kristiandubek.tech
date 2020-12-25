@@ -24,17 +24,16 @@ class Navigation {
         this.$window.on('load scroll resize', this.toggleActiveNavigationItem.bind(this));
     }
 
+    /**
+     * Toggles active class of navigation links.
+     */
     toggleActiveNavigationItem() {
         let anchorTagY;
         let activeIndex = this.$anchorTag.length;
 
         do {
             anchorTagY = this.$anchorTag.get(--activeIndex).getBoundingClientRect().top;
-
-            if (activeIndex === 0) {
-                break;
-            }
-        } while (anchorTagY > 1);
+        } while (anchorTagY > 1 && activeIndex !== 0);
 
         this.$anchorLink.each((linkIndex, navigationLink) => {
             if (linkIndex === activeIndex) {
