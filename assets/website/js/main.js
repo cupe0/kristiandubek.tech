@@ -9,3 +9,4 @@ window.web = web;
 // Require your components here.
 import './components/timeline';
 import './components/navigation';
+import './components/loading-animation';
