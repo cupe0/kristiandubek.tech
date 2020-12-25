@@ -5,6 +5,7 @@ $colorBlack: #000000;
 $colorWhite: #FFFFFF;
 $colorYellow: #FFC800;
 $colorDarkGrey: #111111;
+$colorWhiteTransparent: rgba($colorWhite, 0.95);
 
 /* ===========================================================
         Fonts.
@@ -33,3 +34,8 @@ $containerMediumMaxWidth: 1180px;
 $containerMediumSmallMaxWidth: 1015px;
 $containerSmallMaxWidth: 940px;
 $textMaxWidth: 700px;
+
+/* ===========================================================
+        Z-Indices.
+=========================================================== */
+$navigationZIndex: 99;

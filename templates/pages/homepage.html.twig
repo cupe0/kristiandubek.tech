@@ -1,5 +1,30 @@
 {% extends 'master.html.twig' %}
 
 {% block content %}
-    {% include 'includes/blocks.html.twig' %}
+    <div id="{{ register_component('navigation') }}" >
+        {% if content.blocks|length %}
+            {% set columns = 0 %}
+
+            {% for block in content.blocks %}
+                {% set columns = block.navigationTitle|default('') ? columns + 1 : columns %}
+            {% endfor %}
+
+            <div class="navigation-spacer"></div>
+
+            <div class="default-padding navigation js-navigation">
+                <div class="default-max-width centered navigation-inner"
+                     style="grid-template-columns: 1fr repeat({{ columns }}, min-content);">
+                    {% for block in content.blocks %}
+                        {% if block.navigationTitle|default('') %}
+                            {% set anchorLink = '#' ~ block.navigationTitle|replace({' ': ''}) %}
+
+                            <a class="text-centered navigation-item js-navigation-item" href="{{ anchorLink }}">{{ block.navigationTitle }}</a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        {% endif %}
+
+        {% include 'includes/blocks.html.twig' %}
+    </div>
 {% endblock %}

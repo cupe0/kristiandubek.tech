@@ -1,7 +1,13 @@
+{% set anchorTag = block.navigationTitle|default('') ? block.navigationTitle|replace({' ': ''}) : '' %}
+
 {% if block.image %}
     {% set image = block.image %}
 
-    <div class="header">
+    <div class="relative header">
+        {% if anchorTag %}
+            <div id="{{ anchorTag }}" class="navigation-anchor js-navigation-anchor"></div>
+        {% endif %}
+
         <div class="header-image-wrapper">
             <img class="header-image"
                  src="{{ image.thumbnails['1920x864'] }}"

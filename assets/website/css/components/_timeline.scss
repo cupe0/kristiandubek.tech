@@ -1,6 +1,8 @@
 .timeline {
     background-image: url('/images/background-dark.jpg');
     color: $colorWhite;
+
+    /*
     @include fluid(padding-top, 150px);
     @include fluid(padding-bottom, 150px);
 
@@ -13,6 +15,7 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
+     */
 }
 
 .timeline-event-container:not(:first-child) {

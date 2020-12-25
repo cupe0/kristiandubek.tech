@@ -46,6 +46,7 @@
 .text-image-card {
     @include fluid(width, 540px);
     @include fluid(height, 540px);
+    transform: translateZ(-1px); // Fixes z-index bug of flip-card animation on safari.
 
     &:hover {
         .text-image-card-inner {
