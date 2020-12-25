@@ -2,6 +2,9 @@
 
 ##### Unreleased
 
+- FEATURE: Added loading animation to template Homepage
+    - https://github.com/cupe0/kristiandubek.tech/pull/6
+
 - FEATURE: Added navigation to template Homepage
     - https://github.com/cupe0/kristiandubek.tech/pull/5
 

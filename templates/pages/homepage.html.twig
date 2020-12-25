@@ -1,6 +1,10 @@
 {% extends 'master.html.twig' %}
 
 {% block content %}
+    <div id="{{ register_component('loading-animation') }}" class="loading-animation-container">
+        <div class="loading-animation"></div>
+    </div>
+
     <div id="{{ register_component('navigation') }}" >
         {% if content.blocks|length %}
             {% set columns = 0 %}

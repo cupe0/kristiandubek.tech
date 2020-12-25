@@ -1,0 +1,61 @@
+/* ===========================================================
+        Clock Animation Settings.
+=========================================================== */
+$clockWidth: 120px;
+$clockThickness: 3px;
+$clockRadius: calc(#{$clockWidth} / 2);
+$clockMinuteLength: calc(#{$clockWidth} * 0.4);
+$clockHourLength: calc(#{$clockWidth} * 0.2);
+
+.loading-animation-container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: calc(#{$navigationZIndex} + 1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $colorYellow;
+}
+
+.loading-animation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $clockWidth;
+    height: $clockWidth;
+    border: 3px solid $colorWhite;
+    border-radius: 50%;
+
+    &::before,
+    &::after {
+        position: absolute;
+        content: '';
+        top: calc(#{$clockRadius} * 0.25);
+        width: $clockThickness;
+        background: $colorWhite;
+        border-radius: 10px;
+        transform-origin: center calc(100% - calc(#{$clockThickness} / 2));
+        animation: spin infinite linear;
+    }
+
+    &::before {
+        height: $clockMinuteLength;
+        animation-duration: 2s;
+    }
+
+    &::after {
+        top: calc(#{$clockRadius} * 0.25 + #{$clockHourLength});
+        height: $clockHourLength;
+        animation-duration: 15s;
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(1turn);
+    }
+}
