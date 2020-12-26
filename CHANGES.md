@@ -2,6 +2,9 @@
 
 ##### Unreleased
 
+- FEATURE: Added CB Projects
+    - https://github.com/cupe0/kristiandubek.tech/pull/7
+
 - FEATURE: Added loading animation to template Homepage
     - https://github.com/cupe0/kristiandubek.tech/pull/6
 
