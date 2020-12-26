@@ -70,6 +70,11 @@
     position: relative;
 }
 
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /* ===========================================================
         Text Formatting.
 =========================================================== */
@@ -91,8 +96,142 @@
     color: $fontDefault;
     font-weight: 400;
 
+    &--medium-large {
+        @include fluid(font-size, 18px);
+        @include fluid(line-height, 29px);
+    }
+
     &--large {
         @include fluid(font-size, 24px);
         @include fluid(line-height, 35px);
+    }
+}
+
+/* ===========================================================
+        Buttons.
+=========================================================== */
+.button {
+    display: inline-block;
+    position: relative;
+    @include fluid(padding-top, 10px);
+    @include fluid(padding-right, 10px);
+    @include fluid(padding-bottom, 10px);
+    @include fluid(padding-left, 10px);
+    border: solid $colorWhite;
+    @include fluid(border-width, 1px);
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: solid transparent;
+        @include fluid(border-width, 1.5px);
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+        animation: button-before-reverse-animation 0.5s ease-in forwards;
+    }
+
+    &::after {
+        bottom: 0;
+        right: 0;
+        animation: button-after-reverse-animation 0.5s ease-in forwards;
+    }
+
+    &:hover {
+        &::before {
+            animation: button-before-animation 0.5s ease-in forwards;
+        }
+
+        &::after {
+            animation: button-after-animation 0.5s ease-in forwards;
+        }
+    }
+
+    &--no-animation::before,
+    &--no-animation::after {
+        animation: none !important;
+    }
+}
+
+@keyframes button-before-animation {
+    from {
+        width: 0;
+        height: 0;
+        border-top-color: $colorWhite;
+        border-left-color: $colorWhite;
+    }
+
+    to {
+        width: 100%;
+        height: 100%;
+        border-top-color: $colorWhite;
+        border-left-color: $colorWhite;
+    }
+}
+
+@keyframes button-before-reverse-animation {
+    0% {
+        width: 100%;
+        height: 100%;
+        border-top-color: $colorWhite;
+        border-left-color: $colorWhite;
+    }
+
+    99% {
+        width: 0;
+        height: 0;
+        border-top-color: $colorWhite;
+        border-left-color: $colorWhite;
+    }
+
+    100% {
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-left-color: transparent;
+    }
+}
+
+@keyframes button-after-animation {
+    from {
+        width: 0;
+        height: 0;
+        border-bottom-color: $colorWhite;
+        border-right-color: $colorWhite;
+    }
+
+    to {
+        width: 100%;
+        height: 100%;
+        border-bottom-color: $colorWhite;
+        border-right-color: $colorWhite;
+    }
+}
+
+@keyframes button-after-reverse-animation {
+    0% {
+        width: 100%;
+        height: 100%;
+        border-bottom-color: $colorWhite;
+        border-right-color: $colorWhite;
+    }
+
+    99% {
+        width: 0;
+        height: 0;
+        border-bottom-color: $colorWhite;
+        border-right-color: $colorWhite;
+    }
+
+    100% {
+        width: 0;
+        height: 0;
+        border-bottom-color: transparent;
+        border-right-color: transparent;
     }
 }

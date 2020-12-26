@@ -1,6 +1,18 @@
 /* ===========================================================
         Breakpoint mixins.
 =========================================================== */
+@mixin desktopMax {
+    @media screen and (max-width: $desktopBreakpoint) {
+        @content;
+    }
+}
+
+@mixin desktopMin {
+    @media screen and (min-width: $desktopBreakpoint + 1px) {
+        @content;
+    }
+}
+
 @mixin laptopMax {
     @media screen and (max-width: $laptopBreakpoint) {
         @content;

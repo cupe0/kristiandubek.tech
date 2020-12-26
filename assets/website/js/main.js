@@ -10,3 +10,4 @@ window.web = web;
 import './components/timeline';
 import './components/navigation';
 import './components/loading-animation';
+import './components/slider';

@@ -56,4 +56,22 @@
 
         <scale x="600" y="270"/>
     </format>
+
+    <format key="1152x864">
+        <meta>
+            <title lang="de">Projekt Slider Bild</title>
+            <title lang="en">Project Slider Image</title>
+        </meta>
+
+        <scale x="1152" y="864"/>
+    </format>
+
+    <format key="400x450">
+        <meta>
+            <title lang="de">Projekt Slider Bild Mobile</title>
+            <title lang="en">Project Slider Image Mobile</title>
+        </meta>
+
+        <scale x="400" y="450"/>
+    </format>
 </formats>

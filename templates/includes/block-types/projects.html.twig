@@ -1,0 +1,99 @@
+{% set anchorTag = block.navigationTitle|default('') ? block.navigationTitle|replace({' ': ''}) : '' %}
+
+<div class="relative default-spacing-margin">
+    {% if anchorTag %}
+        <div id="{{ anchorTag }}" class="navigation-anchor navigation-anchor--default-margin js-navigation-anchor">
+        </div>
+    {% endif %}
+
+    <div class="default-padding">
+        <div class="centered text-centered default-max-width-text">
+            {% if block.title %}
+                <div class="headline-second">
+                    {{ block.title }}
+                </div>
+            {% endif %}
+
+            {% if block.description %}
+                <div>
+                    {{ block.description|raw }}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    {% if block.slides|length %}
+    <div id="{{ register_component('slider') }}" class="relative projects-slider">
+        <div class="relative projects-slider-text-container">
+            {% for slide in block.slides %}
+                {% set hiddenClass = loop.index0 == 0 ? '' : ' projects-slider-text--hidden' %}
+                {% set noAnimationClass = loop.index0 == 0 ? '' : ' button--no-animation' %}
+                {% set extraMarginClass = slide.link ? '' : ' projects-slider-text-description--extra-margin' %}
+
+                <div class="projects-slider-text js-projects-slider-text{{ hiddenClass }}">
+                    {% if slide.title %}
+                        <div class="headline-fourth headline-fourth--white">
+                            {{ slide.title }}
+                        </div>
+                    {% endif %}
+
+                    {% if slide.description %}
+                        <div class="projects-slider-text-description{{ extraMarginClass }}">
+                            {{ slide.description|raw }}
+                        </div>
+                    {% endif %}
+
+                    {% if slide.link %}
+                        <a class="button js-projects-slider-text-button{{ noAnimationClass }}"
+                           href="{{ slide.link }}" target="_blank">
+                            Zur Website
+                        </a>
+                    {% endif %}
+                </div>
+            {% endfor %}
+
+            <div class="projects-slider-navigation js-projects-arrows">
+                <div class="inline-block projects-slider-prev-arrow js-projects-prev-arrow">
+                    <span><</span>
+                </div>
+
+                <div class="inline-block projects-slider-navigation-info">
+                    <span class="js-current-slide">1</span> / {{ block.slides|length }}
+                </div>
+
+                <div class="inline-block projects-slider-next-arrow js-projects-next-arrow">
+                    <span>></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-slider-slide-container ">
+            <div class="js-project-slider">
+                {% for slide in block.slides %}
+                    {% set image = slide.image %}
+
+                    {% if image %}
+                        <div class="projects-slider-slide">
+                            {% if slide.link %}
+                                <a href="{{ slide.link }}" target="_blank">
+                                    <picture>
+                                        <source media="(min-width:770px)" srcset="{{ image.thumbnails['1152x864'] }}">
+                                        <source media="(min-width:600px)" srcset="{{ image.thumbnails['400x450'] }}">
+                                        <img src="{{ image.thumbnails['600x270'] }}" alt="{{ image.title }}">
+                                    </picture>
+                                </a>
+                            {% else %}
+                                <picture>
+                                    <source media="(min-width:770px)" srcset="{{ image.thumbnails['1152x864'] }}">
+                                    <source media="(min-width:600px)" srcset="{{ image.thumbnails['400x450'] }}">
+                                    <img src="{{ image.thumbnails['600x270'] }}" alt="{{ image.title }}">
+                                </picture>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>

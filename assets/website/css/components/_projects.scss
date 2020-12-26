@@ -1,0 +1,209 @@
+.projects-slider {
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+    width: 100%;
+    background-color: $colorBlack;
+
+    &::after {
+        content: '';
+        display: block;
+        padding-top: 45%; // 20:9 Aspect Ratio
+    }
+
+    &:not(:first-child) {
+        @include fluid(margin-top, 60px);
+    }
+
+    @include tabletSmallMax {
+        &::after {
+            padding-top: 56.25%; // 16:9 Aspect Ratio
+        }
+    }
+
+    @include mobileLargeMax {
+        flex-direction: column-reverse;
+
+        &::after {
+            content: none;
+        }
+
+        &:not(:first-child) {
+            margin-top: 40px;
+        }
+    }
+}
+
+.projects-slider-text-container {
+    z-index: 1;
+    width: 50%;
+    transform: skew(7deg);
+    @include fluid(margin-left, -60px);
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        transform: skewX(-7deg);
+        background-image: url('/images/background-dark.jpg');
+        width: 110%;
+        height: 100%;
+    }
+
+    @include desktopMax {
+        width: 60%;
+    }
+
+    @include tabletMax {
+        width: 70%;
+    }
+
+    @include tabletSmallMax {
+        width: 85%;
+    }
+
+    @include mobileLargeMax {
+        width: 100%;
+        margin-left: 0;
+        transform: none;
+        height: 100%;
+
+        &::before {
+            transform: none;
+            width: 100%;
+        }
+    }
+}
+
+.projects-slider-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 75%;
+    transform: translate(-50%, -50%) skew(-7deg);
+    color: $colorWhite;
+
+    &--hidden {
+        display: none;
+    }
+
+    @include desktopMax {
+        width: 70%;
+    }
+
+    @include laptopMax {
+        left: 55%;
+    }
+
+    @include mobileLargeMax {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        transform: none;
+        padding: 30px 20px 40px;
+    }
+
+    @include mobileSmallMax {
+        padding-top: 30px;
+    }
+}
+
+.projects-slider-text-description--extra-margin {
+    @include mobileSmallMax {
+        margin-bottom: 50px;
+    }
+}
+
+.projects-slider-navigation {
+    position: absolute;
+    @include fluid(right, 20px);
+    @include fluid(bottom, 20px);
+    transform: skew(-7deg);
+    color: $colorWhite;
+
+    @include mobileLargeMax {
+        right: 20px;
+        top: 30px;
+        bottom: initial;
+        transform: none;
+    }
+
+    @include mobileSmallMax {
+        top: initial;
+        bottom: 40px;
+    }
+}
+
+.projects-slider-prev-arrow,
+.projects-slider-next-arrow {
+    @include fluid(padding, 5px);
+    @include fluid(font-size, 35px);
+    font-weight: 400;
+    transition: color 100ms ease-in;
+
+    &:hover {
+        color: $colorYellow;
+        cursor: pointer;
+    }
+}
+
+.projects-slider-navigation-info {
+    @include fluid(margin-top, 1.5px);
+}
+
+.projects-slider-slide-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+
+    @include mobileLargeMax {
+        position: relative;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        padding-bottom: 45%;
+
+        @include mobileLargeMax {
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -8%;
+                width: 100%;
+                height: 15%;
+                -webkit-transform: skewY(20deg);
+                transform: skewY(-3deg);
+                background-image: url(/images/background-dark.jpg);
+            }
+        }
+    }
+}
+
+.projects-slider-slide {
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.8s ease;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba($colorBlack, 0.02);
+        pointer-events: none;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}

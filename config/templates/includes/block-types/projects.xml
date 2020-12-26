@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<type xmlns="http://schemas.sulu.io/template/template"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/template-1.0.xsd"
+      name="projects">
+    <meta>
+        <title lang="de">Projekte</title>
+        <title lang="en">Projects</title>
+    </meta>
+
+    <properties>
+        <property name="navigationTitle" type="text_line">
+            <meta>
+                <title lang="de">Navigationstitel</title>
+                <title lang="en">Navigation Title</title>
+            </meta>
+        </property>
+
+        <property name="title" type="text_line">
+            <meta>
+                <title lang="de">Titel</title>
+                <title lang="en">Title</title>
+            </meta>
+        </property>
+
+        <property name="description" type="text_editor">
+            <meta>
+                <title lang="de">Beschreibung</title>
+                <title lang="en">Description</title>
+            </meta>
+        </property>
+
+        <block name="slides" default-type="slide">
+            <meta>
+                <title lang="de">Slides</title>
+                <title lang="en">Slides</title>
+            </meta>
+
+            <types>
+                <type name="slide">
+                    <meta>
+                        <title lang="de">Slide</title>
+                        <title lang="en">Slide</title>
+                    </meta>
+
+                    <properties>
+                        <property name="title" type="text_line">
+                            <meta>
+                                <title lang="de">Titel</title>
+                                <title lang="en">Title</title>
+                            </meta>
+                        </property>
+
+                        <property name="description" type="text_editor">
+                            <meta>
+                                <title lang="de">Beschreibung</title>
+                                <title lang="en">Description</title>
+                            </meta>
+                        </property>
+
+                        <property name="link" type="text_line">
+                            <meta>
+                                <title lang="de">Link</title>
+                                <title lang="en">Link</title>
+                            </meta>
+                        </property>
+
+                        <property name="image" type="single_media_selection">
+                            <meta>
+                                <title lang="de">Bild</title>
+                                <title lang="en">Image</title>
+                            </meta>
+                        </property>
+                    </properties>
+                </type>
+            </types>
+        </block>
+    </properties>
+</type>
