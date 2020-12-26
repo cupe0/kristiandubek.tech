@@ -185,7 +185,6 @@
 .projects-slider-slide {
     display: inline-block;
     vertical-align: middle;
-    transition: transform 0.8s ease;
 
     img {
         height: 100%;
@@ -201,9 +200,5 @@
         height: 100%;
         background: rgba($colorBlack, 0.02);
         pointer-events: none;
-    }
-
-    &:hover {
-        transform: scale(1.05);
     }
 }
