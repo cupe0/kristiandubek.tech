@@ -55,6 +55,7 @@
                         <xi:include href="../includes/block-types/timeline.xml"/>
                         <xi:include href="../includes/block-types/header.xml"/>
                         <xi:include href="../includes/block-types/projects.xml"/>
+                        <xi:include href="../includes/block-types/technologies.xml"/>
                     </types>
                 </block>
             </properties>

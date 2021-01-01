@@ -27,9 +27,11 @@
 
         {% block content %}{% endblock %}
 
-        {% block footer %}
+    {#
+            {% block footer %}
             {% include 'blocks/footer.html.twig' %}
         {% endblock %}
+    #}
 
         {% block javascript %}
             <script src="{{ asset('/build/website/js/main.js') }}"></script>

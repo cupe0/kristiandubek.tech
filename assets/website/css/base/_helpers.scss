@@ -17,22 +17,26 @@
         Vertical Spacing.
 =========================================================== */
 .default-spacing-margin {
-    @include fluid(margin-top, 60px);
-    @include fluid(margin-bottom, 60px);
+    @include fluid(margin-top, 120px);
+    @include fluid(margin-bottom, 120px);
 
     @include mobileLargeMax {
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    &--last-block {
+        margin-bottom: 0;
     }
 }
 
 .default-spacing-padding {
     @include fluid(padding-top, 80px);
-    @include fluid(padding-bottom, 80px);
+    @include fluid(padding-bottom, 120px);
 
     @include mobileLargeMax {
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 80px;
     }
 }
 
@@ -73,6 +77,10 @@
 .inline-block {
     display: inline-block;
     vertical-align: middle;
+
+    &--top {
+        vertical-align: top;
+    }
 }
 
 /* ===========================================================

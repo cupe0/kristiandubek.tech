@@ -57,6 +57,15 @@
         <scale x="600" y="270"/>
     </format>
 
+    <format key="608x342">
+        <meta>
+            <title lang="en">Header Image Mobile 16:9</title>
+            <title lang="de">Headerbild Mobile 16:9</title>
+        </meta>
+
+        <scale x="608" y="342"/>
+    </format>
+
     <format key="1152x864">
         <meta>
             <title lang="de">Projekt Slider Bild</title>
@@ -73,5 +82,14 @@
         </meta>
 
         <scale x="400" y="450"/>
+    </format>
+
+    <format key="130x150">
+        <meta>
+            <title lang="de">Technologie Icon</title>
+            <title lang="en">Technology Icon</title>
+        </meta>
+
+        <scale x="130" y="150"/>
     </format>
 </formats>

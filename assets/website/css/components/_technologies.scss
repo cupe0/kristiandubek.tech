@@ -1,0 +1,164 @@
+.technologies-top-item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    @include fluid(margin-top, 60px);
+
+    @include tabletSmallMax {
+        grid-template-columns: 1fr;
+    }
+}
+
+.technologies-top-item-image {
+    @include fluid(margin-bottom, 25px);
+
+    img {
+        @include fluid(max-height, 200px);
+        @include fluid(max-width, 200px);
+    }
+}
+
+.technologies-top-item-image-description {
+    text-transform: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.technologies-table-container {
+    @include fluid(margin-top, 60px);
+    @include fluid(padding-top, 60px);
+    @include fluid(padding-bottom, 80px);
+    background-image: url('/images/background-dark.jpg');
+    color: $colorWhite;
+
+    @include mobileSmallMax {
+        padding-top: 40px;
+    }
+}
+
+.technologies-table-container-title {
+    @include tabletMax {
+        text-align: center;
+    }
+}
+
+.technologies-table-navigation {
+    position: relative;
+    display: grid;
+    justify-content: space-between;
+    @include fluid(margin-top, 40px);
+
+    @include tabletMax {
+        grid-template-columns: 1fr !important;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+.technologies-table-navigation-item {
+    &--active .technologies-table-navigation-item-text {
+        color: $colorYellow;
+
+        @include tabletMax {
+            display: inline-block;
+            text-align: center;
+            color: $colorWhite;
+            cursor: default;
+
+            &:hover {
+                color: $colorWhite;
+            }
+        }
+    }
+}
+
+.technologies-table-navigation-item-text {
+    font-weight: 300;
+    @include fluid(font-size, 18px);
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+        color: $colorYellow;
+    }
+
+    @include tabletMax {
+        display: none;
+    }
+}
+
+.technologies-table-navigation-prev-arrow,
+.technologies-table-navigation-next-arrow {
+    display: none;
+
+    @include tabletMax {
+        position: absolute;
+        padding: 5px;
+        font-size: 35px;
+        cursor: pointer;
+        font-weight: 400;
+        transition: color 100ms ease-in;
+
+        &:hover {
+            color: $colorYellow;
+        }
+    }
+}
+
+.technologies-table-navigation-prev-arrow {
+    @include tabletMax {
+        top: 50%;
+        left: calc(50% - 100px);
+        transform: translate(-50%, -50%);
+    }
+}
+
+.technologies-table-navigation-next-arrow {
+    @include tabletMax {
+        top: 50%;
+        left: calc(50% + 100px);
+        transform: translate(-50%, -50%);
+    }
+}
+
+.technologies-table-slide-container {
+    overflow: hidden;
+    @include fluid(margin-top, 40px);
+}
+
+.technologies-table-slide {
+    z-index: 0 !important; // Fix for slick z-index bug on load when fade is set to true.
+}
+
+.technologies-table-slide-image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    @include fluid(grid-row-gap, 30px);
+
+    @include tabletMax {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include mobileLargeMax {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mobileSuperSmallMax {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.technologies-table-slide-image {
+    img {
+        @include fluid(max-height, 120px);
+        @include fluid(max-width, 120px);
+        height: 100%;
+    }
+}
+
+.technologies-table-slide-image-text {
+    @include fluid(margin-top, 10px);
+}
