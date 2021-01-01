@@ -22,6 +22,7 @@
     line-height: 1.41em;
     text-transform: uppercase;
     color: $colorDarkGrey;
+    word-break: break-word;
 
     &--white {
         color: $colorWhite;
@@ -29,6 +30,10 @@
 
     &--italic {
         font-style: italic;
+    }
+
+    @include mobileLargeMax {
+        font-size: 30px;
     }
 }
 

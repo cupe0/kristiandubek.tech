@@ -8,13 +8,10 @@
             <div id="{{ anchorTag }}" class="navigation-anchor js-navigation-anchor"></div>
         {% endif %}
 
-        <div class="header-image-wrapper">
-            <img class="header-image"
-                 src="{{ image.thumbnails['1920x864'] }}"
-                 srcset="{{ image.thumbnails['600x270'] }} 600w,
-                         {{ image.thumbnails['1040x468'] }} 1024w,
-                         {{ image.thumbnails['1920x864'] }} 1440w"
-                 alt="Header Image">
-        </div>
+        <picture class="header-image-wrapper">
+            <source class="header-image" media="(min-width:1024px)" srcset="{{ image.thumbnails['1920x864'] }}">
+            <source class="header-image" media="(min-width:601px)" srcset="{{ image.thumbnails['1040x468'] }}">
+            <img class="header-image" src="{{ image.thumbnails['608x342'] }}" alt="{{ image.title }}">
+        </picture>
     </div>
 {% endif %}

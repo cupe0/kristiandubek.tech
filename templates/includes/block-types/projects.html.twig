@@ -23,7 +23,7 @@
     </div>
 
     {% if block.slides|length %}
-    <div id="{{ register_component('slider') }}" class="relative projects-slider">
+    <div id="{{ register_component('slider', { type: 'projects' }) }}" class="relative projects-slider">
         <div class="relative projects-slider-text-container">
             {% for slide in block.slides %}
                 {% set hiddenClass = loop.index0 == 0 ? '' : ' projects-slider-text--hidden' %}

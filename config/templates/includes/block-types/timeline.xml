@@ -129,8 +129,6 @@
                     </properties>
                 </type>
 
-
-
                 <type name="separator">
                     <meta>
                         <title lang="de">Separator</title>

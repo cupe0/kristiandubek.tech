@@ -7,6 +7,10 @@
         content: '';
         display: block;
         padding-top: 45%; // 20:9 Aspect Ratio
+
+        @include mobileLargeMax {
+            padding-top: 56.25%; // 16:9 Aspect Ratio
+        }
     }
 }
 
@@ -21,4 +25,5 @@
 
 .header-image {
     position: fixed;
+    width: 100%;
 }

@@ -2,6 +2,9 @@
 
 ##### Unreleased
 
+- FEATURE: Added CB Technologies
+    - https://github.com/cupe0/kristiandubek.tech/pull/8
+
 - FEATURE: Added CB Projects
     - https://github.com/cupe0/kristiandubek.tech/pull/7
 
