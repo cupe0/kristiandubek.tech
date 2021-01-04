@@ -2,6 +2,9 @@
 
 ##### Unreleased
 
+- FEATURE: Changed technologies top item breakpoint 
+    - https://github.com/cupe0/kristiandubek.tech/pull/10
+
 - FEATURE: Added general styling adaptions.
     - https://github.com/cupe0/kristiandubek.tech/pull/9
 
