@@ -20,7 +20,7 @@
     grid-template-rows: 1fr;
     grid-template-columns: repeat(12, 1fr);
 
-    @include tabletMax {
+    @include desktopMax {
         grid-template-rows: auto auto;
         grid-row-gap: 24px;
     }
@@ -30,20 +30,20 @@
     align-self: center;
     justify-self: center;
 
-    @include tabletMax {
+    @include desktopMax {
         grid-row: 2;
         grid-column: 4 / 10 !important;
     }
 
-    @include tabletSmallMax {
+    @include tabletMax {
         grid-column: 3 / 11 !important;
     }
 
-    @include mobileLargeMax {
+    @include tabletSmallMax {
         grid-column: 2 / 12 !important;
     }
 
-    @include mobileSmallMax {
+    @include mobileLargeMax {
         grid-column: 1 / 13 !important;
     }
 }
@@ -54,7 +54,7 @@
     justify-self: center;
     grid-row: 1;
 
-    @include tabletMax {
+    @include desktopMax {
         grid-column: 5 / 9 !important;
     }
 
@@ -67,6 +67,10 @@
     }
 
     &--wide {
+        @include desktopMax {
+            grid-column: 4 / 10 !important;
+        }
+
         @include tabletMax {
             grid-column: 3 / 11 !important;
         }

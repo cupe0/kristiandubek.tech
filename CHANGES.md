@@ -2,6 +2,9 @@
 
 ##### Unreleased
 
+- FEATURE: Added general styling adaptions.
+    - https://github.com/cupe0/kristiandubek.tech/pull/9
+
 - FEATURE: Added CB Technologies
     - https://github.com/cupe0/kristiandubek.tech/pull/8
 
