@@ -113,8 +113,8 @@ class Timeline {
         const rect = elem.getBoundingClientRect();
         const innerHeight = this.$window.innerHeight();
 
-        const startPercent = 0.9;
-        const endPercent = 0.6;
+        const startPercent = 1.05;
+        const endPercent = 0.75;
 
         const startCoordinate = innerHeight * startPercent;
         const endCoordinate = innerHeight * endPercent;

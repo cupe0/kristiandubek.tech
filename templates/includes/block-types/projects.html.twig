@@ -77,15 +77,15 @@
                             {% if slide.link %}
                                 <a href="{{ slide.link }}" target="_blank">
                                     <picture>
-                                        <source media="(min-width:770px)" srcset="{{ image.thumbnails['1152x864'] }}">
-                                        <source media="(min-width:600px)" srcset="{{ image.thumbnails['400x450'] }}">
+                                        <source media="(min-width:1025px)" srcset="{{ image.thumbnails['1152x864'] }}">
+                                        <source media="(min-width:600px)" srcset="{{ image.thumbnails['1040x468'] }}">
                                         <img src="{{ image.thumbnails['600x270'] }}" alt="{{ image.title }}">
                                     </picture>
                                 </a>
                             {% else %}
                                 <picture>
-                                    <source media="(min-width:770px)" srcset="{{ image.thumbnails['1152x864'] }}">
-                                    <source media="(min-width:600px)" srcset="{{ image.thumbnails['400x450'] }}">
+                                    <source media="(min-width:1025px)" srcset="{{ image.thumbnails['1152x864'] }}">
+                                    <source media="(min-width:600px)" srcset="{{ image.thumbnails['1040x468'] }}">
                                     <img src="{{ image.thumbnails['600x270'] }}" alt="{{ image.title }}">
                                 </picture>
                             {% endif %}
